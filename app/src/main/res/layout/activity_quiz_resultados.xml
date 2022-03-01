@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".ResultadosQuiz"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/test_completado"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/respuestasCorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/respuestas_correctas"
+            android:textColor="@color/verde_titulo"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/respuestasIncorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/respuestas_incorrectas"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ll"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/text_colorQuizBar"
+        android:text="@string/volver_a_historia"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color" />
+
+</RelativeLayout>

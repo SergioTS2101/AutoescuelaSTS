@@ -1,0 +1,322 @@
+<resources>
+    <string name="app_name">AutoescuelaSTS</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta? Desliza hacia la izquierda para crearla</string>
+    <string name="entrar">Entrar</string>
+    <string name="email">Email</string>
+    <string name="crear">Crear</string>
+    <string name="terminos_condiciones">Acepto los términos y condiciones de privacidad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="teoria_tema1">Para poder circular libremente con vehículos a motor y ciclomotores
+    debes disponer previamente de la autorización pertinente, certificando así tener los requisitos
+    de capacidad, conocimiento y habilidad necesarios para conducir dicho vehículo. \n\n
+
+    El tipo de autorización necesaria depende del tipo de vehículo, pudiendo distinguir entre
+    permisos y licencias de conducir. \n\n
+
+    La gran mayoría de vehículos precisan de la obtención de un permiso de conducir. Existiendo a
+    su vez varios tipos de permisos, dependiendo de si vas a conducir un ciclomotor, moto, coche,
+    camión o autobús. \n\n
+
+    Las licencias de conducir se reservan para vehículos para personas de movilidad reducida (LCM) y
+    vehículos especiales agrícolas autopropulsados (LVA). \n\n
+
+    Además del permiso o licencia, si vas a conducir vehículos que transporten mercancías
+    peligrosas, necesitas obtener una autorización administrativa especial, conocida como permiso de
+    mercancías peligrosas ADR. Dicha autorización ADR es complementaria al permiso y necesitas,
+    como mínimo, un permiso tipo B con una antigüedad de más de un año. \n\n
+
+        <b>Tipos de permisos de conducir</b> \n\n
+        AM: ciclomotores de dos o tres ruedas y cuatriciclos ligeros. La edad mínima para obtenerlo será de quince años cumplidos. \n\n
+A1: motocicletas con una cilindrada máxima de 125 cm³ y potencia máxima de 11 kW (algo menos de 15 cv). La edad mínima para obtenerlo será de dieciséis años cumplidos. \n\n
+A2: motocicletas con una potencia máxima de 35 kW (algo menos de 47 cv). La edad mínima para obtenerlo será de dieciocho años cumplidos. \n\n
+A: motocicletas y triciclos de motor. La edad mínima para obtenerlo será de veinte años cumplidos, veintiuno para el caso de triciclos. \n\n
+El permiso A te permite conducir conducir cualquier vehículo incluido en A, A2, A1 y AM. El permiso A2, cualquier vehículo incluido en A2, A1 y AM. Por último el permiso A1 te permite también conducir los vehículos del permiso AM (ciclomotores) \n\n
+
+B: autoriza para conducir los siguientes vehículos: \n
+Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que estén diseñados y construidos para el transporte de no más de 8 pasajeros además del conductor. \n\n
+Se autoriza a la conducción en territorio nacional con una antigüedad del permiso superior a dos años, de automóviles sin remolque impulsados por combustibles alternativos destinados al transporte de mercancías con una masa máxima autorizada superior a 3.500 kg pero que no exceda los 4.250 kg, siempre que la masa que supere los 3.500 kg provenga exclusivamente del exceso de masa del sistema de propulsión respecto al sistema de propulsión de un vehículo de las mismas dimensiones que esté equipado con un motor convencional de combustión interna con encendido por chispa o por compresión, y siempre que no se incremente la capacidad de carga respecto al mismo vehículo. \n\n
+
+Conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase B y un remolque cuya masa máxima autorizada exceda de 750 kg, siempre que la masa máxima autorizada del conjunto no exceda de 4.250 kg, sin perjuicio de las disposiciones que las normas de aprobación de tipo establezcan para estos vehículos \n
+Triciclos y cuatriciclos de motor\n\n
+La edad mínima para obtenerlo será de dieciocho años cumplidos. \n\n
+B + E: conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase B y un remolque o semirremolque cuya masa máxima autorizada no exceda de 3500 kg. La edad mínima para obtenerlo será de dieciocho años cumplidos.\n\n
+C1: automóviles distintos de los que autoriza a conducir el permiso de las clases D1 o D, cuya masa máxima autorizada exceda de 3500 kg y no sobrepase los 7500 kg. La edad mínima para obtenerlo será de dieciocho años cumplidos. \n\n
+C1 + E: autoriza para conducir los siguientes vehículos: \n\n
+Conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase C1 y un remolque o semirremolque cuya masa máxima autorizada exceda de 750 kg, siempre que la masa máxima autorizada del conjunto así formado no exceda de 12.000 kg \n\n
+Conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase B y un remolque o semirremolque cuya masa máxima autorizada exceda de 3.500 kg, siempre que la masa máxima autorizada del conjunto no exceda de 12.000 kg, sin perjuicio de las disposiciones que las normas de aprobación de tipo establezcan para estos vehículos \n\n
+La edad mínima para obtenerlo será de dieciocho años cumplidos. \n\n
+C: automóviles distintos de los que autoriza a conducir el permiso de las clases D1 o D, cuya masa máxima autorizada exceda de 3500 kg. La edad mínima para obtenerlo será de veintiún años cumplidos. También se podrá obtener con 18 años cumplidos siempre que sea titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. \n\n
+C + E: conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase C y un remolque o semirremolque cuya masa máxima autorizada exceda de 750 kg. La edad mínima para obtenerlo será de veintiún años cumplidos. También se podrá obtener con 18 años cumplidos siempre que sea titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. \n\n
+D1: automóviles diseñados y construidos para el transporte de no más de 16 pasajeros además del conductor y cuya longitud máxima no exceda de 8 metros. La edad mínima para obtenerlo será de veintiún años cumplidos. También se podrá obtener con 18 años cumplidos siempre que sea titular del certificado de aptitud   profesional (CAP) en la modalidad de cualificación inicial ordinaria pero sólo podrán conducir estos vehículos dentro del territorio nacional hasta que el titular del permiso tenga 21 años cumplidos. \n\n
+D1 + E: conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase D1 y un remolque cuya masa máxima autorizada exceda de 750 kg. La edad mínima para obtenerlo será de veintiún años cumplidos. También se podrá obtener con 18 años cumplidos siempre que sea titular del certificado de aptitud   profesional (CAP) en la modalidad de cualificación inicial ordinaria pero sólo podrán conducir estos vehículos dentro del territorio nacional hasta que el titular del permiso tenga 21 años cumplidos. \n\n
+D: autoriza para conducir automóviles diseñados y construidos para el transporte de más de ocho pasajeros además del conductor. La edad mínima para obtenerlo será de veinticuatro años cumplidos. También podrá obtenerse a las siguientes edades, cumpliendo el requisito indicado y con las limitaciones establecidas en cada caso: \n\n
+23 AÑOS y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial acelerada \n\n
+21 AÑOS  y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. \n\n
+21 AÑOS y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial acelerada. (Sólo podrán conducir vehículos de transporte de viajeros en servicios regulares cuyo trayecto no supere los 50 km). \n\n
+20 AÑOS y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. (Solo podrá conducir dentro del territorio nacional y hasta que el titular del permiso tenga 21 años cumplidos) \n\n
+18 AÑOS y ser titulares del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. (Solo podrá conducir vehículos sin pasajeros o si se trata de transporte de viajeros en servicios regulares cuyo trayecto no supere los 50 km, dentro del territorio nacional y hasta que el titular del permiso tenga 21 años cumplidos). \n\n
+D + E: autoriza para conducir conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase D y un remolque cuya masa máxima autorizada exceda de 750 kg. La edad mínima para obtenerlo será de veinticuatro años cumplidos. También podrá obtenerse a las siguientes edades, cumpliendo el requisito indicado y con las limitaciones establecidas en cada caso: \n\n
+23 AÑOS y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial acelerada \n\n
+21 AÑOS  y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. \n\n
+21 AÑOS y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial acelerada. (Sólo podrán conducir vehículos de transporte de viajeros en servicios regulares cuyo trayecto no supere los 50 km). \n\n
+20 AÑOS y ser titular del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. (Solo podrá conducir dentro del territorio nacional y hasta que el titular del permiso tenga 21 años cumplidos) \n\n
+18 AÑOS y ser titulares del certificado de aptitud profesional (CAP) en la modalidad de cualificación inicial ordinaria. (Solo podrá conducir vehículos sin pasajeros o si se trata de transporte de viajeros en servicios regulares cuyo trayecto no supere los 50 km, dentro del territorio nacional y hasta que el titular del permiso tenga 21 años cumplidos). \n\n
+<b>Tipos de licencias para conducir</b> \n\n
+        LCM: Para conducir vehículos para personas de movilidad reducida. La edad mínima para obtenerlo será de catorce años cumplidos. \n\n
+LVA: Para conducir vehículos especiales agrícolas autopropulsados y sus conjuntos cuya masa o dimensiones máximas autorizadas no excedan de los límites establecidos para los vehículos ordinarios o cuya velocidad máxima por construcción no exceda de 45 km/h. La edad mínima para obtenerlo será de dieciséis años cumplidos. \n\n
+    <b>Autorización para mercancías peligrosas</b> \n\n
+        Autorización básica ADR que habilita a transportar en vehículos no cisternas cualquier tipo de materia peligrosa excepto explosivos (clase 1) y radiactivos (clase 7). \n\n
+Aplicación ADR Cisternas, que habilita para el transporte en cisternas, vehículos batería, unidades de transporte que transporten cisternas o contenedores cisternas. \n\n
+Aplicación ADR Explosivos, que habilita para el transporte de materias de la clase 1. \n\n
+Aplicación ADR Radioactivas, que habilita para el transporte de materias de la clase 7. \n\n
+    </string>
+    <string name="tema1">Permisos y licencias de conducción. Documentación del vehículo.</string>
+    <string name="teoria_tema2">La finalidad esencial de la señalización es la de transmitir a los usuarios de las vías unas normas específicas mediante símbolos y palabras oficialmente establecidas, con objeto de regular o dirigir la circulación. Una vía correctamente señalizada se aprovecha mejor que si se aplican en ella, exclusivamente, las normas generales de circulación. \n\n
+
+
+
+Todo lo referido a la señalización se regula en el Reglamento General de Circulación, aprobado por Real Decreto 13/1992, de 17 de enero, en su Título IV, que desarrolla el Título III de la Ley de Seguridad Vial. \n\n
+
+
+
+A lo largo de los artículos 131 al 172 se establecen detalladamente las normas sobre señalización, a las que han de atenerse todos los usuarios de las vías, al igual que los tipos, formas y significados. \n\n
+
+
+
+Definiendo en su artículo 131 la señalización como el conjunto de normas y órdenes de agentes de circulación, señales circunstanciales que modifican el régimen normal de utilización de la vía, semáforos, señales verticales de circulación y marcas viales, destinadas a los usuarios de la vía y que tienen por misión advertir e informar a éstos u ordenar o reglamentar su comportamiento con la necesaria antelación, de determinadas circunstancias de la vía o de la circulación. \n\n
+
+
+
+De esta definición se pueden deducir cuatro funciones que cumple la señalización: \n\n
+
+
+
+Informar al conductor de las condiciones del entorno que le rodea. La información va dirigida a que el conductor sepa donde se encuentra, cual es el camino para llegar a su destino y cuando ha llegado a él. \n\n
+
+
+Regular el uso de la vía en cada momento de conformidad con las normas de tráfico. \n\n
+
+
+Avisar con antelación suficiente de los peligros que puede encontrar el conductor en su camino. \n\n
+
+
+Aconsejar en que forma debe comportarse para no sobrepasar los límites de seguridad. \n\n
+
+
+Para que estas funciones e cumplan es necesario que exista cierta obligación de respeto de las señales por parte de los usuarios, así en este sentido el Reglamento recoge (artículo 132) la obediencia de las señales cuando dice que todos los usuarios de la vía están obligados a obedecer las señales de circulación que tengan carácter de obligación o prohibición, adaptando su comportamiento a los mensajes del resto. Esto se hará a pesar de que parezca que están en contradicción con otras normas de circulación. \n\n
+
+
+
+Se deberán obedecer las indicaciones de la señalización que se encuentre situada inmediatamente a la derecha, encima de la calzada (semáforos y señales verticales). Si se pretende realizar maniobras de cambio de sentido o continuar de frente y no existiesen señales a la derecha se obedecerán las de la izquierda. \n\n
+
+
+
+Principios fundamentales de la señalización de una vía: \n\n
+
+
+
+Satisfacer una necesidad importante. \n
+Llamar la atención, es decir, saltar a la vista. \n
+Tener un significado simple y claro. \n
+No oponerse a los preceptos de la Ley de Seguridad Vial y el Reglamento General de Circulación. \n
+Estar convenientemente situada para dar tiempo y espacio a la reacción adecuada \n
+Promover el debido respeto de los usuarios a los que el mensaje va dirigido. \n
+</string>
+    <string name="tema2">Señalización de la vía</string>
+    <string name="teoria_tema3">Tal como se explica en el Reglamento General de Circulación (RGC), la clasificación de las señales verticales puede establecerse por su forma en triangulares (advierten de un peligro), redondas (prohíben u obligan), cuadradas o rectangulares (informan u orientan). Por su finalidad, se pueden clasificar en advertencia de un peligro, reglamentación e indicación. Vamos a profundizar en cada una. \n\n
+
+        <b>1. Señales de advertencia de peligro</b>\n\n
+Las señales de advertencia de peligro informan a los conductores sobre la proximidad y la naturaleza de un peligro que puede ser difícil de percibirse a tiempo. Las encontraremos a una distancia de entre 150 y 250 metros antes del peligro. Si la señal de peligro lleva un panel complementario indicando una longitud, ésta hará referencia al tramo de vía del peligro. \n
+
+Por su nomenclatura, este tipo de señales las reconoceremos con la letra P seguida de un guion y un número, y se pueden contar hasta 51 tipos diferentes (todas ellas las podemos consultar en el anexo I del RGC). Algunos ejemplos que existen son: \n
+
+
+
+P-1: Intersección con prioridad. Indica el peligro por la proximidad de una intersección con una vía, cuyos usuarios deben ceder el paso. \n\n
+
+P-4: Intersección con circulación giratoria. Informa de un peligro por la proximidad de una intersección donde la circulación se efectúa de forma giratoria en el sentido de las flechas. \n\n
+
+P-26: Desprendimiento. Nos adelanta un peligro por la proximidad a una zona con desprendimientos frecuentes y la posible presencia de obstáculos en la calzada. \n\n
+
+        <b>2. Señales de reglamentación</b> \n\n
+Estas señales indican obligaciones, limitaciones o prohibiciones. Su forma es circular, salvo alguna excepción, y se subdividen en: señales de prioridad, de prohibición de entrada, de restricción de paso, de obligación, de fin de prohibición o restricción, y otro tipo de señales de prohibición y restricción. Vamos a hacer una breve descripción de cada una de ellas: \n
+
+
+Señales de prioridad: ponen en conocimiento de los usuarios ciertas reglas de prioridad en las intersecciones o en los pasos estrechos. Según su nomenclatura, las reconoceremos por tener una R seguida de un guion y un número. Podemos contar hasta 7 señales diferentes. Entre ellas, el ceda el paso (R-1), el stop o detención obligatoria (R-2) o la prioridad al sentido contrario (R-5) \n\n
+
+Señales de prohibición de entrada: si te las encuentras de frente, en el sentido de tu marcha y a partir del lugar en que están situadas, prohíben el acceso a los vehículos. Su nomenclatura incluye una R seguida de un guion y un número a partir del 100. Algunos ejemplos son la R-100 (circulación prohibida para todos los vehículos en ambos sentidos), la R-102 (entrada prohibida a vehículos de motor) o la R-117 (entrada prohibida a animales de montura) \n\n
+
+Señales de restricción de paso: si te la encuentras de frente en el sentido de tu marcha, te prohíben o limitan el acceso. Las reconoceremos con la nomenclatura R seguida de un guion y un número a partir de 200. Ejemplos: R-200 (prohibición de pasar sin detenerse), R-205 (limitación de altura) o R-204 (limitación de anchura) \n\n
+
+Señales de obligación: son circulares con fondo azul y símbolos blancos. Señalan una norma de circulación obligatoria. Se las nombra con una R seguida de un guion y un número a partir de 400. Algún ejemplo que nos solemos encontrar en la carretera es la R-400a (sentido obligatorio hacia la derecha), la R-402 (intersección de sentido giratorio-obligatorio) o la R-405 (calzada para motocicletas de dos ruedas sin sidecar) \n\n
+
+Señales de fin de prohibición o restricción: indican el lugar a partir del que deja de tener aplicación alguna prohibición o restricción indicada por otra señal anterior. Son las del tipo R-500 (fin de prohibiciones), R-501 (fin de la limitación de la velocidad) o R-506 (fin de velocidad mínima) \n\n
+
+Otro tipo de señales de prohibición o restricción: se las reconoce con la nomenclatura R-300 y siguientes hasta la R-400, destinada a las señales de obligación, como hemos explicado antes. Algunas señales de este tipo que nos podemos encontrar son: R-301 (velocidad máxima), R-302 (giro a la derecha prohibido) o R-305 (adelantamiento prohibido) \n\n
+
+        <b>3. Señales de indicación</b> \n\n
+Las señales de indicación dan al usuario de la vía algún tipo de información útil. Se subdividen en señales de indicaciones generales, de carriles, de servicio, de orientación, paneles complementarios y otro tipo de señales. Explicamos cada una brevemente: \n
+
+
+Señales de indicaciones generales: su nomenclatura es del tipo S-”número”. Algún ejemplo que nos encontramos es la S-1 (autopista), S-5 (túnel) o S-23 (hospital) \n\n
+
+Señales de carriles: su nomenclatura se inicia con la S-50. Algún ejemplo puede ser la S-52.a (final de carril destinado a la circulación) o la S-51 (carril reservado para autobuses) \n\n
+
+Señales de servicio: las reconoceremos por las señales S-100 y siguientes. Entre ellas, están la S-102 (servicio de Inspección Técnica de Vehículos) o la S-123 (área de descanso) \n\n
+
+Señales de orientación: se clasifican en señales de preseñalización, dirección, identificación de carreteras, localización, confirmación y uso específico de poblado. Nos las encontraremos con la nomenclatura desde la S-200 hasta la S-700. Entre otras, son las señales de destino que nos informan de a cuántos metros está una estación de servicio o una población. \n\n
+
+Paneles complementarios: los reconocemos con la nomenclatura S-800 y siguientes. Necesitan el significado de la señal que complementan. Algunos ejemplos son la propia señal S-800 (indica la distancia al comienzo del peligro o prescripción) o la S-810 (longitud del tramo peligroso) \n\n
+
+Otras señales: debido a su peculiaridad, no se engloban en ningún otro tipo de señal mencionada anteriormente. Su nomenclatura parte de las S-900. Algunos ejemplos pueden ser la S-920 (entrada a España) o la misma S-900 (peligro de incendio) \n\n</string>
+    <string name="teoria_tema4">
+        <b>Señales generales de indicación</b> \n\n
+Las generales de indicación son de las señales destinadas a la indicación que más frecuentemente se pueden encontrar en las carreteras de España. Se utilizan para dar a conocer a los conductores determinados aspectos importantes para la conducción. \n\n
+
+Por ejemplo, dentro de este grupo encontramos las señales que marcan el comienzo de una autovía o autopista o su final, las que señalan la presencia y el final de un túnel o las que están dispuestas para recomendar intervalos de velocidad en algunos puntos. \n\n
+
+Como puede verse, estas señales no crean obligación ni prohibición por sí mismas. Eso sí, las normas para la conducción pueden cambiar al ver una de ellas, como sucede en el caso de entrar o salir de una autovía. \n\n
+
+En este mismo tipo dentro de la subcategoría que estamos señalando se encontrarían las señales para el paso de peatones, las de sentido único y otras que son también tan frecuentes como la que indica una calle sin salida. \n\n
+
+        <b>Indicaciones para carriles</b> \n\n
+Estas son señales destinadas a la indicación que solo afectan a un determinado carril. Identificarlas es sencillo, ya que presentan la forma y los colores que antes explicamos para estas señales y en su interior estarán dibujados los distintos carriles que conformen la vía por la que se circule. \n\n
+
+Así, sobre cada línea que señale un carril podrá haber señales adicionales que los conductores tendrán que respetar. Son muy frecuentes estas señales para delimitar carriles reservados para vehículos que circulen con una determinada velocidad que se marcará claramente. \n\n
+
+También es posible encontrar señales especiales que reserven un carril para la circulación de otros vehículos, como es el caso de los autobuses o los taxis, algo de lo más común en el interior de las grandes ciudades. \n\n
+
+        <b>Modelos de indicación de servicios</b> \n\n
+Son otro de los tipos fundamentales de las señales de indicación. Se emplean para señalar a los conductores que cerca de donde están circulando hay presentes determinados servicios que podrían resultar útiles o necesarios. \n\n
+
+Aquí es donde entran señales que marcan la presencia de gasolineras, talleres de emergencia, puestos de socorro o lugares de descanso y restauración. Cada una de estas indicaciones se señala con un pictograma propio que resulta fácil de reconocer. \n\n
+
+Ninguna de estas señales crea ningún tipo de obligación ni harán que el conductor deba llevar a cabo una acción determinada. Las anteriores, como la de carriles o las generales, sí que pueden implicar determinados comportamientos, pero estas de indicación no lo hacen en ningún caso. \n\n</string>
+    <string name="tema3">Señales verticales de peligro y de reglamentación</string>
+    <string name="tema4">Señales de indicación</string>
+    <string name="contador">1/6</string>
+    <string name="aqui_ira_la_pregunta">Aquí irá la pregunta</string>
+    <string name="primera_opcion">Primera opción</string>
+    <string name="segunda_opcion">Segunda opción</string>
+    <string name="tercera_opcion">Tercera opción</string>
+    <string name="cuarta_opcion">Cuarta opción</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="test_completado">¡Has completado el test!</string>
+    <string name="respuestas_correctas">"Respuestas correctas: "</string>
+    <string name="respuestas_incorrectas">"Respuestas incorrectas: "</string>
+    <string name="volver_a_historia">Volver</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="opciones">Opciones</string>
+    <string name="cambiar_tema">Cambiar tema</string>
+    <string name="elijaRespuesta">Por favor, elija una respuesta</string>
+    <string name="fin">¡Quiz terminado!</string>
+    <string name="elegir_fecha">Elegir fecha</string>
+    <string name="direccion">Direccion</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="autoescuela_sts">Autoescuela STS</string>
+    <string name="eslogan">Enseñando a conducir desde el 2000</string>
+</resources>
