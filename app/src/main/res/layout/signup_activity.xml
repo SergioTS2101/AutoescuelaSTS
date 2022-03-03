@@ -89,7 +89,7 @@
 
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/cbTerminos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"

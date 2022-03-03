@@ -43,7 +43,7 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         final ListaPreguntas pregunta1 = new ListaPreguntas("Las señales de peligro son...", "Triangulares con borde rojo y fondo blanco", "Circulares con borde rojo y fondo blanco", "Cuadradas con fondo azul", "Triangulares con borde rojo y fondo blanco", "");
-        final ListaPreguntas pregunta2 = new ListaPreguntas("¿Cuál de estas señales significa 'situación de un paso a nivel sin barreras'","La 1.", "La 2.", "Ninguna de las dos.", "Ninguna de las dos.", "");
+        final ListaPreguntas pregunta2 = new ListaPreguntas("¿Cuál de estas señales significa 'situación de un paso a nivel sin barreras'", "La 1.", "La 2.", "Ninguna de las dos.", "Ninguna de las dos.", "");
         final ListaPreguntas pregunta3 = new ListaPreguntas("¿Cuál de estas señales significa badén?", "La 1", "La 2", "La 3", "La 3", "");
         listaPreguntas.add(pregunta1);
         listaPreguntas.add(pregunta2);

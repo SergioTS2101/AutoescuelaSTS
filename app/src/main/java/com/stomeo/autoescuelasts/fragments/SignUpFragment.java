@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -24,6 +25,8 @@ public class SignUpFragment extends Fragment {
     private EditText nombreUsuario;
     private EditText contrasenia;
 
+    private CheckBox terminos;
+
     public SignUpFragment() {
     }
 
@@ -35,10 +38,11 @@ public class SignUpFragment extends Fragment {
         View myView = inflater.inflate(R.layout.signup_activity, container, false);
         AdminSQLite adminSQLite = new AdminSQLite(getActivity());
 
-        Button crear = (Button) myView.findViewById(R.id.btn_crear);
-        email = (EditText) myView.findViewById(R.id.etEmailSU);
-        nombreUsuario = (EditText) myView.findViewById(R.id.etUsuarioSU);
-        contrasenia = (EditText) myView.findViewById(R.id.etContraseñaSU);
+        Button crear = myView.findViewById(R.id.btn_crear);
+        email = myView.findViewById(R.id.etEmailSU);
+        nombreUsuario = myView.findViewById(R.id.etUsuarioSU);
+        contrasenia = myView.findViewById(R.id.etContraseñaSU);
+        terminos  = myView.findViewById(R.id.cbTerminos);
 
         crear.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,11 +54,12 @@ public class SignUpFragment extends Fragment {
                 BaseDatosUsuarios baseDatosUsuarios = new BaseDatosUsuarios(getActivity());
                 long id = baseDatosUsuarios.insertarUsuario(getEmail, getNombreUsuario, getContrasenia);
 
-                if (id > 0) {
+                if ((id > 0) && terminos.isChecked()) {
                     Toast.makeText(getActivity(), "Registro completado", Toast.LENGTH_LONG).show();
                     limpiar();
                     Intent intent = new Intent(v.getContext(), MainActivity.class);
                     startActivity(intent);
+                    getActivity().finish();
                 } else {
                     Toast.makeText(getActivity(), "Error al registrarse", Toast.LENGTH_LONG).show();
                 }

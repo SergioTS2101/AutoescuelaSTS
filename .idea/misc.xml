@@ -19,6 +19,8 @@
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/activity_quizz.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/activity_scrolling.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/activity_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/activity_temas_videos.xml" value="0.1875" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/activity_videos.xml" value="0.20244565217391305" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/content_scrolling.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/dgt_activity.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/dgt_activityy.xml" value="0.1" />
@@ -29,7 +31,7 @@
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/login_activity.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/login_fragment.xml" value="0.25" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/musica_activity.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/signup_activity.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/signup_activity.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/signup_fragment.xml" value="0.18" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/splash_activity.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/AutoescuelaSTS/app/src/main/res/layout/temas_activity.xml" value="0.20416666666666666" />

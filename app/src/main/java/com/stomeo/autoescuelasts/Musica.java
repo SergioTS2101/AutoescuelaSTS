@@ -17,8 +17,8 @@ public class Musica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.musica_activity);
 
-        encender = (ImageView) findViewById(R.id.encender);
-        apagar = (ImageView) findViewById(R.id.apagar);
+        encender = findViewById(R.id.encender);
+        apagar = findViewById(R.id.apagar);
 
         encender.setOnClickListener(new View.OnClickListener() {
             @Override

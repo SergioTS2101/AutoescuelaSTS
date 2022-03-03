@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        switchTema = (Switch) findViewById(R.id.switchTema);
+        switchTema = findViewById(R.id.switchTema);
 
         preferences = getSharedPreferences("night", 0);
         boolean valor = preferences.getBoolean("night_mode", false);
@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     public void inicializar() {
         elements = new ArrayList<>();
         elements.add(new ArrayListElementos("Leer teoría"));
+        elements.add(new ArrayListElementos("Vídeos teoría"));
         elements.add(new ArrayListElementos("Programar clase"));
         elements.add(new ArrayListElementos("Enviar correo a la DGT"));
         elements.add(new ArrayListElementos("Activar sonido"));
@@ -80,7 +81,13 @@ public class MainActivity extends AppCompatActivity {
     public void iniciarActividad(ArrayListElementos item) {
         switch (item.getOpcion()) {
             case "Leer teoría": {
-                Intent intent = new Intent(this, TemasActivity.class);
+                Intent intent = new Intent(this, TemasTeoriaActivity.class);
+                intent.putExtra("ArrayListElementos", item);
+                startActivity(intent);
+                break;
+            }
+            case "Vídeos teoría": {
+                Intent intent = new Intent(this, TemasVideosActivity.class);
                 intent.putExtra("ArrayListElementos", item);
                 startActivity(intent);
                 break;

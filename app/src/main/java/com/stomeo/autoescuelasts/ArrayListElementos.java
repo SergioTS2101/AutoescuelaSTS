@@ -3,7 +3,7 @@ package com.stomeo.autoescuelasts;
 import java.io.Serializable;
 
 public class ArrayListElementos implements Serializable {
-    public String opcion;
+    private String opcion;
 
     public ArrayListElementos(String opcion) {
         this.opcion = opcion;

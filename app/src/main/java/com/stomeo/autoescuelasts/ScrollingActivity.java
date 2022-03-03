@@ -2,16 +2,14 @@ package com.stomeo.autoescuelasts;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
-import android.widget.TextView;
-
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.stomeo.autoescuelasts.databinding.ActivityScrollingBinding;
 
 public class ScrollingActivity extends AppCompatActivity {
@@ -36,7 +34,7 @@ public class ScrollingActivity extends AppCompatActivity {
         toolBarLayout.setTitle(getTitle());
 
         toolBarLayout = findViewById(R.id.collapsing_toolbar);
-        tv = (TextView) findViewById(R.id.tvTexto);
+        tv = findViewById(R.id.tvTexto);
 
         temaElegido = getIntent().getStringExtra("temaElegido");
         ScrollingActivity.Temas animal = ScrollingActivity.Temas.valueOf(temaElegido);

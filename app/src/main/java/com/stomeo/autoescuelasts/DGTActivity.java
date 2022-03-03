@@ -19,9 +19,9 @@ public class DGTActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dgt_activity);
 
-        etDireccion = (EditText) findViewById(R.id.etDireccion);
-        etAsunto = (EditText) findViewById(R.id.etAsunto);
-        etMensaje = (EditText) findViewById(R.id.etMensaje);
+        etDireccion = findViewById(R.id.etDireccion);
+        etAsunto = findViewById(R.id.etAsunto);
+        etMensaje = findViewById(R.id.etMensaje);
     }
 
     public void enviar (View v){

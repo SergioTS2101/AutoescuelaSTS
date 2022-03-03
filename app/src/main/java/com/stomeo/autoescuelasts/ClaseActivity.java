@@ -23,8 +23,8 @@ public class ClaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clase);
 
-        btn_fecha = (Button) findViewById(R.id.btn_Fecha);
-        etFecha = (EditText) findViewById(R.id.etFecha);
+        btn_fecha = findViewById(R.id.btn_Fecha);
+        etFecha = findViewById(R.id.etFecha);
 
     }
 

@@ -38,10 +38,10 @@ public class LoginFragment extends Fragment {
 
         AdminSQLite adminSQLite = new AdminSQLite(getActivity());
 
-        Button entrar = (Button) myView.findViewById(R.id.btn_entrar);
-        email = (EditText) myView.findViewById(R.id.etEmailLogin);
-        nombreUsuario = (EditText) myView.findViewById(R.id.etUsuarioLogin);
-        contrasenia = (EditText) myView.findViewById(R.id.etContraseñaLogin);
+        Button entrar = myView.findViewById(R.id.btn_entrar);
+        email = myView.findViewById(R.id.etEmailLogin);
+        nombreUsuario = myView.findViewById(R.id.etUsuarioLogin);
+        contrasenia = myView.findViewById(R.id.etContraseñaLogin);
 
         cargarPreferencias();
         entrar.setOnClickListener(new View.OnClickListener() {
@@ -58,6 +58,7 @@ public class LoginFragment extends Fragment {
                     Intent intent = new Intent(v.getContext(), MainActivity.class);
                     startActivity(intent);
                     limpiar();
+                    getActivity().finish();
                 } else {
                     Toast.makeText(getActivity(), "Error en el login", Toast.LENGTH_LONG).show();
                 }
